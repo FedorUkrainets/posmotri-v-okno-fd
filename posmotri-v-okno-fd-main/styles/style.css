@@ -214,6 +214,11 @@ h1.title {
   gap: 5px;
 }
 
+h2.search-form__fieldset-title{
+  margin-left: 4px;
+  margin-bottom: 5px;
+}
+
 .search-form__label {
   display: flex;
   flex-direction: row;
