@@ -304,6 +304,7 @@ input[type="checkbox"].search-form__label {
   line-height: 21.6px;
 }
 
+
 .button.more-button:hover {
   cursor: pointer;
   text-decoration: underline;
