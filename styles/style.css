@@ -60,7 +60,7 @@ ol {
   display: grid;
   grid-template-areas: "result content__details";
   max-width: 1140px;
-  margin-top: 300px;
+  margin-top: 305px;
   margin-right: 30px;
   gap: 30px;
   align-items: end;
@@ -90,6 +90,7 @@ ol {
   grid-area: card;
   margin-top: 26px;
   overflow-x: hidden;
+  width: 399px;
 }
 
 .content__video-card-title {
@@ -193,6 +194,7 @@ h1.title {
   height: 210px;
   font-family: 'Oswald';
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .content__accent {
