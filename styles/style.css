@@ -60,7 +60,7 @@ ol {
   display: grid;
   grid-template-areas: "result content__details";
   max-width: 1140px;
-  margin-top: 134px;
+  margin-top: 190px;
   margin-left: 30px;
   gap: 30px;
   align-items: end;
