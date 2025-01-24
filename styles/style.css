@@ -92,6 +92,7 @@ ol {
   margin-top: 26px;
   overflow-x: hidden;
   width: 399px;
+  position: relative;
 }
 
 .content__video-card-title {
@@ -217,7 +218,7 @@ h1.title {
   gap: 5px;
 }
 
-h2.search-form__fieldset-title{
+h2.search-form__fieldset-title {
   margin-left: 4px;
   margin-bottom: 5px;
 }
@@ -256,7 +257,6 @@ input[type="checkbox"].search-form__label {
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
   width: 15px;
   height: 15px;
   background-color: #fff;
@@ -269,12 +269,11 @@ input[type="checkbox"].search-form__label {
   gap: 10px;
   border-left: none;
   border-right: none;
-  border-top: 1px white;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
-  border-top: 1px solid;
+  border-top: 1px solid white;
   border-bottom: 1px solid;
   appearance: none;
 }
@@ -330,9 +329,5 @@ input[type="checkbox"].search-form__label {
 
 
 .result__video-container {
-  position: relative;
-}
-
-.content__list-container {
   position: relative;
 }
