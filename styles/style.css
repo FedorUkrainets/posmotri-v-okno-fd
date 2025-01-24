@@ -60,8 +60,8 @@ ol {
   display: grid;
   grid-template-areas: "result content__details";
   max-width: 1140px;
-  margin-top: 240px;
-  margin-left: 10px;
+  margin-top: 270px;
+  margin-right: 20px;
   gap: 30px;
   align-items: end;
   align-content: space-between;
