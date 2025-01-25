@@ -113,13 +113,13 @@ ol {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 21.6px;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .search-form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
-  margin-top: 16px;
   width: 711px;
   align-items: end;
   justify-items: end;
@@ -136,6 +136,7 @@ ol {
   line-height: 21.6px;
   font-weight: 700;
   font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 button.button.search-form__submit-button {
