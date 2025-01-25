@@ -60,7 +60,7 @@ ol {
   display: grid;
   grid-template-areas: "result content__details";
   max-width: 1140px;
-  margin-top: 370px;
+  margin-top: 333px;
   margin-right: 50px;
   gap: 30px;
   align-items: end;
@@ -196,7 +196,6 @@ h1.title {
   height: 210px;
   font-family: 'Oswald';
   text-transform: uppercase;
-  margin-top: 20px;
 }
 
 .content__accent {
