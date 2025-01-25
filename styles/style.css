@@ -274,7 +274,7 @@ input[type="checkbox"].search-form__label {
   border-left: none;
   border-right: none;
   color: #fff;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21.6px;
   border-top: 1px solid white;
