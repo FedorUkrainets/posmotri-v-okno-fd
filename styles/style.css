@@ -150,18 +150,23 @@ button.button.more-button {
   margin-bottom: 14px;
 }
 
-.button:hover, .content__card-link:hover {
+.button:hover,
+.content__card-link:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.button:active, .content__card-link:active {
+.button:active,
+.content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
 }
 
-.button:has(:focus-visible), .search-form__label:has(:focus-visible), .search-form__label-text:has(:focus-visible ), .content__card-link:has(:focus-visible) {
-border: 1px solid #fff;
-outline: none;
+.button:has(:focus-visible),
+.search-form__label:has(:focus-visible),
+.search-form__label-text:has(:focus-visible),
+.content__card-link:has(:focus-visible) {
+  border: 1px solid #fff;
+  outline: none;
 }
 
 fieldset.search-form__fieldset {
@@ -169,7 +174,7 @@ fieldset.search-form__fieldset {
 }
 
 .content__list-item {
-width: 390px;
+  width: 390px;
 }
 
 .content__card-link {
@@ -257,8 +262,8 @@ input[type="checkbox"].search-form__label {
   display: none;
 }
 
-.search-form__label:hover .search-form__label-text{
-text-decoration: underline;
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
 }
 
 .search-form__pseudo-checkbox {
@@ -316,6 +321,6 @@ text-decoration: underline;
   text-decoration: none;
 }
 
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
